@@ -31,7 +31,7 @@ class Gcm {
 
         //still need to add response handling
         $res = json_decode($response);
-        if (isset($res->successs) > 0) {
+        if (isset($res->success) > 0) {
             return true;
         }
         return false;
